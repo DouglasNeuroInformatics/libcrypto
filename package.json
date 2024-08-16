@@ -17,8 +17,12 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
+    "!/dist/**/*.spec.*",
     "!/dist/**/*.test.*",
-    "/dist"
+    "!/src/**/*.spec.*",
+    "!/src/**/*.test.*",
+    "/dist",
+    "/src"
   ],
   "scripts": {
     "build": "tsc",
