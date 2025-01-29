@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.3...v0.0.4) (2025-01-29)
+
+
+### Bug Fixes
+
+* declare Crypto globals ([4e46c55](https://github.com/DouglasNeuroInformatics/libcrypto/commit/4e46c55267c2e23ff973e86d028ea4bf4100f4dc))
+
 ## [0.0.3](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.2...v0.0.3) (2025-01-29)
 
 
