@@ -2,7 +2,7 @@
   "name": "@douglasneuroinformatics/libcrypto",
   "type": "module",
   "version": "0.0.2",
-  "packageManager": "pnpm@9.3.0",
+  "packageManager": "pnpm@9.15.4",
   "description": "Wrappers for the Web Crypto API",
   "author": "Joshua Unrau",
   "license": "Apache-2.0",
@@ -34,22 +34,22 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@hpke/core": "^1.2.7"
+    "@hpke/core": "^1.7.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@douglasneuroinformatics/eslint-config": "^4.2.1",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@douglasneuroinformatics/eslint-config": "^5.2.4",
     "@douglasneuroinformatics/prettier-config": "^0.0.1",
     "@douglasneuroinformatics/semantic-release": "^0.0.1",
-    "@douglasneuroinformatics/tsconfig": "^1.0.1",
-    "@vitest/coverage-v8": "^1.4.0",
-    "eslint": "^8.57.0",
-    "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "typedoc": "^0.25.13",
-    "typescript": "~5.4.5",
-    "vitest": "^1.4.0"
+    "@douglasneuroinformatics/tsconfig": "^1.0.2",
+    "@vitest/coverage-v8": "^3.0.4",
+    "eslint": "^9.19.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2",
+    "typedoc": "^0.27.6",
+    "typescript": "5.6.x",
+    "vitest": "^3.0.4"
   },
   "commitlint": {
     "extends": [
