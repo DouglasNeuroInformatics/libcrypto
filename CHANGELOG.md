@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.2...v0.0.3) (2025-01-29)
+
+
+### Bug Fixes
+
+* downgrade typescript to 5.6 ([151362b](https://github.com/DouglasNeuroInformatics/libcrypto/commit/151362b247f08b1ba1e3775e06ff72bf324eada6))
+
 ## [0.0.2](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.1...v0.0.2) (2024-08-16)
 
 
