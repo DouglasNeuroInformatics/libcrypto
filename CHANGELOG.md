@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.5](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.4...v0.0.5) (2026-04-16)
+
+### Bug Fixes
+
+* adjust types for typescript v6 ([dfb89cf](https://github.com/DouglasNeuroInformatics/libcrypto/commit/dfb89cf0e9066e8c0ddc1b5c3c10f4e2b895fc78))
+
 ## [0.0.4](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.3...v0.0.4) (2025-01-29)
 
 
