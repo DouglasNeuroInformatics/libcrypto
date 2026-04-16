@@ -33,11 +33,11 @@ export class HybridCrypto {
     return this.decoder.decode(await recipient.open(cipherText));
   }
 
-  static async deserializePrivateKey(privateKey: ArrayBufferLike) {
+  static async deserializePrivateKey(privateKey: ArrayBufferLike | ArrayBufferView<ArrayBufferLike>) {
     return this.suite.kem.deserializePrivateKey(privateKey);
   }
 
-  static async deserializePublicKey(publicKey: ArrayBufferLike) {
+  static async deserializePublicKey(publicKey: ArrayBufferLike | ArrayBufferView<ArrayBufferLike>) {
     return this.suite.kem.deserializePublicKey(publicKey);
   }
 
