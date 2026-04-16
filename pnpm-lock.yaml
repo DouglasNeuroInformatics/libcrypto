@@ -8,8 +8,8 @@ importers:
   .:
     dependencies:
       '@hpke/core':
-        specifier: ^1.7.1
-        version: 1.7.1
+        specifier: ^1.9.0
+        version: 1.9.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.6.1
@@ -481,14 +481,14 @@ packages:
     resolution:
       { integrity: sha512-bEMORlG0cqdjVyCEuU0cDQbORWX+kYCeo0kV1lbxF5bt4r7SID2l9bqsxJEM0zndaxpOUT7riCyIVEuqq/Ynxg== }
 
-  '@hpke/common@1.7.1':
+  '@hpke/common@1.10.1':
     resolution:
-      { integrity: sha512-/PBcoBsgr/bWBwJfAF1vKFBRa8tFu1g7mSuCDgpjBlRABXvLbWSF07Rb4rI5PlO8Ng16pjgvI7fgHzaLyZ9lmw== }
+      { integrity: sha512-moJwhmtLtuxiUzzNp1jpfBfx8yefKoO9D/RCR9dmwrnc7qjJqId1rEtQz+lSlU5cabX8daToMSx/7HayXOiaFw== }
     engines: { node: '>=16.0.0' }
 
-  '@hpke/core@1.7.1':
+  '@hpke/core@1.9.0':
     resolution:
-      { integrity: sha512-1cup0EARfFY7ZIIcPXBBs+LmEi7s4xghcQWVjtVUgdVzp5ZDrNpfn6iH7UbV26ZvTcinMU+NFaCfUk0G1rvfjA== }
+      { integrity: sha512-pFxWl1nNJeQCSUFs7+GAblHvXBCjn9EPN65vdKlYQil2aURaRxfGMO6vBKGqm1YHTKwiAxJQNEI70PbSowMP9Q== }
     engines: { node: '>=16.0.0' }
 
   '@humanfs/core@0.19.1':
@@ -4463,11 +4463,11 @@ snapshots:
       '@shikijs/types': 3.23.0
       '@shikijs/vscode-textmate': 10.0.2
 
-  '@hpke/common@1.7.1': {}
+  '@hpke/common@1.10.1': {}
 
-  '@hpke/core@1.7.1':
+  '@hpke/core@1.9.0':
     dependencies:
-      '@hpke/common': 1.7.1
+      '@hpke/common': 1.10.1
 
   '@humanfs/core@0.19.1': {}
 
