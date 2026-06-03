@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.6](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.5...v0.0.6) (2026-06-03)
+
+### Bug Fixes
+
+* update to node v24 ([d87efc4](https://github.com/DouglasNeuroInformatics/libcrypto/commit/d87efc4bf13fedc94c1b81b9abbd49dd6ec64e65))
+
 ## [0.0.5](https://github.com/DouglasNeuroInformatics/libcrypto/compare/v0.0.4...v0.0.5) (2026-04-16)
 
 ### Bug Fixes
