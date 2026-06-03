@@ -1,4 +1,5 @@
 import * as crypto from 'node:crypto';
+import type { webcrypto } from 'node:crypto';
 
 import { beforeAll, describe, expect, it } from 'vitest';
 
@@ -23,8 +24,8 @@ describe('HybridCrypto', () => {
     });
   });
   describe('encrypt and decrypt', () => {
-    let publicKey: CryptoKey;
-    let privateKey: CryptoKey;
+    let publicKey: webcrypto.CryptoKey;
+    let privateKey: webcrypto.CryptoKey;
 
     beforeAll(async () => {
       ({ privateKey, publicKey } = await HybridCrypto.generateKeyPair());

@@ -1,14 +1,16 @@
+import type { webcrypto } from 'node:crypto';
+
 import { Aes128Gcm, CipherSuite, DhkemP256HkdfSha256, HkdfSha256 } from '@hpke/core';
 
 export type DecryptParams = {
   cipherText: Uint8Array;
-  privateKey: CryptoKey;
+  privateKey: webcrypto.CryptoKey;
   symmetricKey: Uint8Array;
 };
 
 export type EncryptParams = {
   plainText: string;
-  publicKey: CryptoKey;
+  publicKey: webcrypto.CryptoKey;
 };
 
 export type EncryptResult = {
@@ -55,18 +57,18 @@ export class HybridCrypto {
     return this.suite.kem.generateKeyPair();
   }
 
-  static async serializeKeyPair({ privateKey, publicKey }: CryptoKeyPair) {
+  static async serializeKeyPair({ privateKey, publicKey }: webcrypto.CryptoKeyPair) {
     return {
       privateKey: await this.serializePrivateKey(privateKey),
       publicKey: await this.serializePublicKey(publicKey)
     };
   }
 
-  static async serializePrivateKey(privateKey: CryptoKey) {
+  static async serializePrivateKey(privateKey: webcrypto.CryptoKey) {
     return new Uint8Array(await this.suite.kem.serializePrivateKey(privateKey));
   }
 
-  static async serializePublicKey(publicKey: CryptoKey) {
+  static async serializePublicKey(publicKey: webcrypto.CryptoKey) {
     return new Uint8Array(await this.suite.kem.serializePublicKey(publicKey));
   }
 }
